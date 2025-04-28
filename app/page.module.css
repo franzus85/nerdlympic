@@ -1,0 +1,19 @@
+/* Adjust background to fit viewport while maintaining image ratio */
+.background {
+  background-image: url('/nerdlympic.webp');
+  background-size: contain; /* Maintain image ratio */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-position: center;
+  height: 100vh;
+  width: 100vw; /* Adjust to viewport width */
+}
+
+/* Add a semi-transparent white background for the form container */
+.formContainer {
+  background-color: rgba(255, 255, 255, 0.75); /* White with 50% opacity */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
