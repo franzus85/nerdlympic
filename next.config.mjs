@@ -1,4 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  experimental: {
+    // Removed deprecated allowMiddlewareResponseBody option
+  },
+};
 
 export default nextConfig;
